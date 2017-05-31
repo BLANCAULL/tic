@@ -1,0 +1,24 @@
+body {
+	
+    background-image: url("cube.jpeg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+
+}
+
+.reto {
+	position: relative;
+	float: right;
+	margin: 10px 40px 40px;
+}
+
+h3 {
+font-size: 30px;
+color: white;
+
+}
+
+a {
+	color: white;
+}
