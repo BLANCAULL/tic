@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<meta charset="utf-8"> <!-- Utilizar las tíldes en HTML5 -->
+		<title>Imágenes</title>
+		
+	</head>
+	
+	<img src="fotos/grass.jpg" alt="grass and Robot"> <!-- Imagen en local, subida la servidor -->
+	
+	<br> <!-- Espacio en blanco -->
+	<hr> <!-- dibujar una linea -->
+	<br>
+	
+	<img src="https://static1.juguetronica.com/media/catalog/product/r/o/robot_mip_c.jpg" alt="Robot"> <!-- Imagen desde origen, subida la servidor -->
+	
+	<!-- tamaños en la imagenes Width and Height-->
+	
+	<img src="fotos/grass.jpg" alt="grass and Robot" width="400" height="400">
+	
+	
+</html>
