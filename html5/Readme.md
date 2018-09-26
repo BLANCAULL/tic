@@ -1,125 +1,13 @@
-DOCTYPE
+<h1>Estas son las nuevas etiquetas de HTML5:</h1>
 
-<!DOCTYPE html>
-La etiqueta doctype declara el tipo de documento, por lo que esta está señalando que este es un documento HTML.
+<header></header> : Para la presentación o cabecera de la página.
 
-HTML
+<nav></nav> : Para menús de navegación con enlaces a otras páginas del sitio o a otras webs.
 
-<html></html>
-Delimita el documento HTML.
+<footer></footer> : Para el pie de página o de una sección. Normalmente se incorpora aquí informacion como el autor, el copyright, la fecha, etc.
 
-Atributo a destacar
-LANG
+<section></section> : Para la presentación de una sección general dentro de un documento. Normalmente incluimos en esta etiqueta el cuerpo principal de la página.
 
-<html lang="es"></html>
-Indica el lenguaje de contenido del código.
+<article></article> : Para incluir artículos o subsecciones en otras partes de la página. Representa un componente autónomo dentro de la página, que puede repetirse. Por ejemplo en una web de venta de libros, cada uno de los libros que se muestran.
 
-HEAD
-
-<head></head>
-El elemento head delimita la cabecera del documento, entre sus etiquetas contiene información como scripts, metadatos, estilos, ubicación de documentos de estilos, título de la página, etc.
-
-META
-
-<meta name="description" content="Descripción de la WEB"> 
-Las meta etiquetas se utilizan para identificar propiedades del documento como por ejemplo el autor, el título y la descripción que mostrarán los buscadores, etc.
-
-Usos a destacar
-META CHARSET
-
-<meta charset="UTF-8">
-Establece el tipo de codificación del documento.
-
-META TITLE
-
-<meta name="title" content="Título de la WEB">
-Contiene el titulo que se mostrará en los buscadores.
-
-META DESCRIPTION
-
-<meta name="description" content="Descripción de la WEB">
-Es el texto que se muestra bajo el título en los motores de búsqueda.
-
-LINK HOJA DE ESTILOS
-
-<link href="http://dominio.com/hoja-de-estilos.css" rel="stylesheet" type="text/css"/> 
-Esta etiqueta contiene un link a una hoja de estilos externa, la cual se utilizará en este documento.
-
-<h1>Atributo a destacar</h1>
-
-HREF
-Especifica la url donde se localiza la hoja de estilo.
-
-BODY
-
-<body></body>
-La etiqueta body delimita el cuerpo del documento y contiene todo aquello que podremos ver en nuestro navegador. Imágenes, textos, enlaces, video, etc…
-
-HEADER
-
-<header></header>
-El contenido de esta etiqueta debe ser la cabecera de nuestra página donde se suele encontrar el título, el logotipo y poco más.
-
-NAV
-
-<nav></nav>
-Esta etiqueta sirve para delimitar el menú de la página, donde colocaremos los enlaces internos para movernos entre nuestras diferentes secciones del sitio web.
-
-A
-
-<a href="http://dominio.com/seccion2.html">IR SECCIÓN 2</a>
-Representa un enlace o hipervínculo.
-HREF
-Dirección URL hacia la que apunta el enlace.
-
-
-H1, H2, H3, H4, H5, H6
-
-<h1>Título de la WEB</h1>
-<h2>CONTENIDO PRINCIPAL</h2>
-<h3>Testimonios</h3>
-<h4>Avisos legales</h4>
-
-Estas etiquetas establecen los encabezados. Se organizan por niveles siendo H1 el más importante y H6 el menos importante.
-
-SECTION
-
-<section></section>
-La etiqueta section engloba una sección de texto, imágenes y otros elementos que guardan cierta relación entre ellos. Normalmente siempre le podremos poner un título o encabezado.
-
-ARTICLE
-
-<article></article>
-La etiqueta article se suele encontrar dentro de una etiqueta section y sirve para dividir y ordenar los contenidos en su interior.
-
-DIV
-
-<div></div>
-Otra forma de dividir contenido para posteriormente aplicarle clases y modificar su estilo.
-
-P
-
-<p></p>
-Entre las etiquetas P colocaremos un párrafo de texto.
-
-IMG
-
-<img src="http://dominio.com/imagen.jpg" alt="paisaje">
-Esta etiqueta coloca una imagen en el documento mediante un enlace.
-
-Atributos a destacar.
-ALT
-Representa el texto alternativo, muy importante para que los bucadores puedan obtener información de la imagen.
-
-SRC
-URL donde se encuentra la imagen.
-
-ASIDE
-
-<aside></aside>
-Contiene información no vital o que no está estrechamente relacionada con el contenido principal de la página como podrían ser banners de anuncios, citas o enlaces externos.
-
-FOOTER
-
-<footer></footer>
-Aquí encontraríamos el código perteneciente al pie de página, donde se suelen colocar los enlaces a textos legales, el copyright, etc.
+<aside></aside> : Representa un contenido de la página distinto del que lo rodea. Es por lo tanto independiente del resto. Puede ponerse aquí contenido publicitario, otros elementos de navegación o contenido que se considera separado del contenido principal de la página.
