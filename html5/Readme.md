@@ -1,10 +1,10 @@
 <h1>Estas son las nuevas etiquetas de HTML5:</h1>
 
-<h2>HEADER</h2> : Para la presentación o cabecera de la página.
+<h2>HEADER</h2> Para la presentación o cabecera de la página.
 
-<h2>NAV</h2> : Para menús de navegación con enlaces a otras páginas del sitio o a otras webs.
+<h2>NAV</h2> Para menús de navegación con enlaces a otras páginas del sitio o a otras webs.
 
-<footer></footer> : Para el pie de página o de una sección. Normalmente se incorpora aquí informacion como el autor, el copyright, la fecha, etc.
+<h2><footer</h2>  Para el pie de página o de una sección. Normalmente se incorpora aquí informacion como el autor, el copyright, la fecha, etc.
 
 <section></section> : Para la presentación de una sección general dentro de un documento. Normalmente incluimos en esta etiqueta el cuerpo principal de la página.
 
