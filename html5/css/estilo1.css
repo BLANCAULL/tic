@@ -1,0 +1,54 @@
+body {
+  margin: 25px;
+  background-color: rgb(240,240,240);
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+h1 {
+	font-family: Arial;
+	font-size: 24px;
+	font-weight: normal;
+	color: #efefef;
+	background-color: #9ACA42;
+	margin: 2px 0px 20px 0px;
+	padding: 5px;
+	border-bottom: 2px solid #4D8353;
+}
+
+footer {
+  margin: 25px;
+  background-color: rgb(240,240,240);
+  font-family: arial, sans-serif;
+  font-size: 14px;
+
+}
+
+h4{
+	
+    font-family: Arial;
+	font-size: 24px;
+	font-weight: normal;
+	color: #efefef;
+	background-color: red;
+	margin: 2px 0px 20px 0px;
+	padding: 5px;
+	border-bottom: 2px solid #4D8353;
+	
+}	
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px; /* opción de porcentajes */
+    padding: 5px;
+    width: 400px;
+}
+
+nav {
+		background-color: gray;
+    	color: white;
+    	text-align: center;
+    	font-family: Arial;
+		font-size: 30px;
+}
