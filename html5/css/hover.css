@@ -71,3 +71,9 @@ img {
     padding: 5px;
     width: 400px;
 }
+
+}
+
+img:hover {
+	content: url('http://www.applegazette.com/wp-content/uploads/2007/05/apple_logo_red_wo_background.jpg'); /*cambio de contenido */
+}
