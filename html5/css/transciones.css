@@ -1,0 +1,44 @@
+
+/*Propiedad para poner colores en forma gradual*/
+body {
+	background: -webkit-linear-gradient(top, blue, #FFF);
+	background: -moz-linear-gradient(top, blue, #FFF);
+	background: -ms-linear-gradient(top, blue, #FFF);
+	background: -o-linear-gradient(top, blue, #FFF);
+}
+
+/*Recuadro1 NO tiene transición */
+.recuadro1{
+  border-radius: 20px;  
+  background-color:yellow;
+  width:200px;
+  padding:10px;
+}
+
+.recuadro1:hover{
+  width:300px;
+  background-color:#ddd;
+}
+
+/*Recuadro2 SI tiene transición */
+
+.recuadro2{
+  border-radius: 20px;  
+  background-color:#ff0;
+  width:200px;
+  padding:10px;
+  transform:rotate(40deg);
+  transition:width 2s, background-color 2s;
+  /* Plugin para diferentes navegadores, recomendable */
+  -moz-transition:width 2s, background-color 2s;
+  -ms-transition:width 2s, background-color 2s; 
+  -webkit-transition:width 2s, background-color 2s; 
+  -o-transition:width 2s, background-color 2s;
+  
+}
+
+.recuadro2:hover{
+  width:500px;
+  background-color: gray;
+  transform:rotate(0deg);
+}
