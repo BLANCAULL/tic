@@ -1,0 +1,51 @@
+form fieldset {
+	float: center;
+	width: 45%;
+	background: #F61;
+	background: -webkit-linear-gradient(top, blue, #FFF);
+	background: -moz-linear-gradient(top, blue, #FFF);
+	background: -ms-linear-gradient(top, blue, #FFF);
+	background: -o-linear-gradient(top, blue, #FFF);
+	box-shadow: 1px 1px 5px;
+	border-radius: 3px;
+}
+
+img {
+	width: 25%;
+	border: 2px solid black;
+	border-radius: 10px;
+	
+}
+
+h1 {
+	text-shadow: 1px 1px 1px #FFF;
+	font-family: Verdana;
+}
+
+label {
+	display: block;
+	margin: 5pt;
+	text-shadow: 1px 1px 1px #FFF;
+	font-family: Verdana;
+	font-size: 15pt;
+	}
+.btn {
+	display: block;
+	box-shadow: 1px 1px 5px;
+	}
+.btn:hover {
+	opacity: 85;
+	color: red;
+	}
+
+select {
+	display: block;
+	line-height: 25px;
+	}
+
+input:focus {
+	border: 2px solid red;
+	background: silver;
+	box-shadow: 2px 2px 6px;
+	border-radius: 3px;
+	}
