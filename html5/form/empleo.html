@@ -1,29 +1,27 @@
 <html>
 	<head>
 		<title>Mi formulario</title>
-    <meta charset="UTF-8">
-    <meta name="title" content="Formulario Empleo">
-    <meta name="description" content="Descripción de la WEB">    
 	<link rel="stylesheet" type="text/css" href="estilo/form.css">
 	</head>
-	<form method="post" action="resultado.php">
+	<form method="post" action="resultado.php"> <!-- Linea para el envio de los datos y donde empieza el formulario-->
 		<h1>Formulario de Empleo</h1>
-		<fieldset>
+		<fieldset> <!-- Etiqueta de marco para el formulario -->
 		<label>Nombre</label>
-		<input type="text" name="nombre" autofocus/>
+		<input type="text" name="nombre" autofocus/> <!-- autofocus: cuando arranca la web se pone en esta posición -->
 
 		<label>Apellido</label>
-		<input type="text" name="apellido" size="50"/>
+		<input type="text" name="apellido" size="50"/> <!-- size: tamaño máximo de caracteres -->
 		
 		<label>DNI</label>
-		<input type="text" name="dni" size="10" maxlengh="9"/>
+		<input type="text" name="dni"/> 
 
 		<label>Sexo</label>
-		<input type="radio" name="seleccion1" value="1">Hombre
-		<input type="radio" name="seleccion1" value="2">Mujer
+		<input type="radio" name="seleccion1" value="H">Hombre <!-- value: es la variable que manda al PHP -->
+		<input type="radio" name="seleccion1" value="M">Mujer
 
 		<label>eMail</label>
 		<input type="email" name="email" placeholder="jcalvo@educacem.com" required />
+		<!-- placeholder: un valor predeterminado-->
 
 
 		<label>Password</label>
