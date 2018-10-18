@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Mi formulario</title>
+    <meta charset="UTF-8">
+    <meta name="title" content="Formulario Empleo">
+    <meta name="description" content="Descripción de la WEB">    
+	<link rel="stylesheet" type="text/css" href="estilo/form.css">
+	</head>
+	<form method="post" action="resultado.php">
+		<h1>Formulario de Empleo</h1>
+		<fieldset>
+		<label>Nombre</label>
+		<input type="text" name="nombre" autofocus/>
+
+		<label>Apellido</label>
+		<input type="text" name="apellido" size="50"/>
+		
+		<label>DNI</label>
+		<input type="text" name="dni" size="10" maxlengh="9"/>
+
+		<label>Sexo</label>
+		<input type="radio" name="seleccion1" value="1">Hombre
+		<input type="radio" name="seleccion1" value="2">Mujer
+
+		<label>eMail</label>
+		<input type="email" name="email" placeholder="jcalvo@educacem.com" required />
+
+
+		<label>Password</label>
+		<input type="password" id="contraseña" size="50"/>
+
+		<label>Estudios</label>		
+		<select name="profesion" size="1">
+		<option value="estudiante">Estudiante</option>
+		<option value="Diplomado">Diplomado</option>
+		<option value="Licenciado">Licenciado</option>
+		</select>
+
+		<label>Idiomas</label>		
+		<select name="idiomas" multiple>
+		<option value="Ingles">Ingles</option>
+		<option value="Aleman">Aleman</option>
+		<option value="chino">Chino</option>
+		<option value="frances">Frances</option>
+		</select>
+
+		<label>Informacion Coplementaria</label>
+		<textarea cols=20 rows=10 name="texto">
+		</textarea>
+		
+		<br/>
+		<br/>
+
+		<input class="btn" type="submit" value="Darme de Alta"/>
+		<input class="btn" type="reset" value="Borrar"/>
+		</fieldset>	
+	</form>
+</html>
