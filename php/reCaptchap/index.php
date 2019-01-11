@@ -37,7 +37,6 @@
 					?>
 					<label>¿A que pais pertenece esta bandera? (en MAYUSCULAS)</label>
 					<input type="text" name="bandera" /></br></br>
-					<input style= "display: none" type="number" name="opcion" value="<?php echo $opcion?>"/></br></br>
 
                     <br>
                             <input type="submit" value="Acceso" />
